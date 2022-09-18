@@ -1,0 +1,12 @@
+.keyboard__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(200px, auto);
+}
+.AC{
+   grid-column: 1/3;
+}
+.zero{
+ grid-column: 1/3;
+}
