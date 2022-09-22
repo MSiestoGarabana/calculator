@@ -1,5 +1,23 @@
 #Calculator{
+    display: flex;
+    flex-direction: column;
     width: 420px;
     background-color: black;
     padding: 10px;
+    font-family:'digital-clock-font';
+ src: url('put_the_location_to_your_font.ttf or .otf');
+    margin-left: 100px;
+}
+.Calculator__output{
+color: rgb(253, 136, 27);
+text-align: end;
+font-size: x-large;
+}
+.Calculator__input{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    text-align: end;
 }
