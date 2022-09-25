@@ -59,6 +59,7 @@
     grid-area: dow;
  }
 .keyboard__wrapper{
+   font-family: 'digital-clock-font';
     display: grid;
     grid-template: 
     'AC AC divide multiply'

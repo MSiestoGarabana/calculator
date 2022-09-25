@@ -1,15 +1,16 @@
 import React from "react";
-import KeyBooard from "./Keyboard";
+import KeyBoard from "./Keyboard";
 import "./Calculator.css";
 
 function Calculator() {
-  let [input, setInput] = React.useState(0);
-  let [output, setOutput] = React.useState(9);
+  let [output, setOutput] = React.useState("2");
+  let [input, setInput] = React.useState("5");
+
   return (
     <div id="Calculator">
-      <output className="Calculator__output">{output}</output>
-      <input className="Calculator__input" value={0}></input>
-      <KeyBooard className="Calculator__keyboard" />
+      <div className="Calculator__output">{output}</div>
+      <input className="Calculator__input" defaultValue={input}></input>
+      <KeyBoard className="Calculator__keyboard" />
     </div>
   );
 }

@@ -1,11 +1,14 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('../font/digital-7\ \(mono\).ttf');
+   }
 #Calculator{
     display: flex;
     flex-direction: column;
     width: 420px;
     background-color: black;
     padding: 10px;
-    font-family:'digital-clock-font';
- src: url('put_the_location_to_your_font.ttf or .otf');
+    font-family: 'digital-clock-font';
     margin-left: 100px;
 }
 .Calculator__output{
@@ -17,7 +20,7 @@ font-size: x-large;
     background-color: black;
     color: rgb(255, 255, 255);
     border: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'digital-clock-font';
     font-size:xx-large;
     text-align: end;
 }
