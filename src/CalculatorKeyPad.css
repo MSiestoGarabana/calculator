@@ -69,15 +69,5 @@
     'zero zero dow equals'
     ;
 }
-.button{
-  height: 105px;
-  width: 105px;
-  background-color: rgb(65, 65, 65);
-  color: white;
-}
-.button:hover{
-    color:black;
-    border: 1px solid white;
-}
 
     
