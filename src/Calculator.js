@@ -8,7 +8,6 @@ function Calculator() {
   console.log(input);
 
   const handleClick = (symbol) => {
-   switch
     if (input === "0") {
       setInput(symbol);
     } else setInput(input + symbol);
