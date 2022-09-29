@@ -12,11 +12,15 @@ function Calculator() {
       setOutput(input);
     } else if (symbol === "AC") {
       setInput("0");
+    } else if (symbol === "." && /[+-/x]?\w+\./.test(input) === true) {
+      console.log("dot has been found");
     } else if (input === "0" && symbol !== ".") {
       setInput(symbol);
     } else {
       setInput(input + symbol);
     }
+    var sample = input;
+    console.log(sample);
   };
 
   return (
