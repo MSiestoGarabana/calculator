@@ -3,7 +3,6 @@ import CalculatorButton from "./CalculatorButton";
 import "./CalculatorKeyPad.css";
 
 function CalculatorKeyPad({ handleClick }) {
-  console.log(handleClick);
   return (
     <div className="keyboard__wrapper">
       <CalculatorButton id={"AC"} symbol={"AC"} handleClick={handleClick} />
