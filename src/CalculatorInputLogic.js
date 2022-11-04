@@ -21,6 +21,9 @@ export function getCalculatornputLogic(input, symbol) {
     isSymbolAnOperator(symbol) === true
   ) {
     return { newInput: input.slice(0, -2) + symbol };
+  } else if (/[+X/][-][0-9]/.test(input) === true && symbol === "/") {
+    console.log("hey");
+    return { newInput: input + symbol };
   } else if (
     isPreviousInputMinus(input) === true &&
     isSymbolAnOperator(symbol) === true
